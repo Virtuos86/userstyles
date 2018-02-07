@@ -1,0 +1,166 @@
+@-moz-document domain("linux.org.ru") {
+    html,
+    body {
+        background: #3a0000 !important;
+        color: #fff !important;
+    }
+    
+    .boxlet {
+        background-color: #2c0000f7 !important;
+        border: 1px solid #440101;
+        border-radius: 0;
+    }
+
+    .code,
+    code {
+        background: #033;
+        color: #99ffff;
+    }
+    
+    blockquote {
+        font-style: normal;
+        color: #99ffff;
+        background: #033;
+        border-left: 3px solid;
+        border-right: 3px solid;
+        border-bottom: 1px solid;
+        border-top: 1px solid;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-color: rgba(220, 220, 220, 0.8);
+    }
+    
+    a {
+        color: #ffd04c !important;
+    }
+    
+    a.visited {
+        color: #000000 !important;
+    }
+    
+    .infoblock {
+        background: #420101f2 !important;
+        border-left: 2px solid;
+        border-top: 1px solid;
+        border-radius: 0;
+    }
+    
+    .messages .msg {
+        background: none repeat scroll 0% 0% #350303f5;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    
+    /* Нумерация страниц в тредах */
+    .page-number {
+        border: 2px solid;
+        border-radius: 15px;
+        background-color: #1f0101;
+    }
+    
+    /* `Трекер` */
+    
+    #bd .btn {
+        border: 1px solid #6c0404;
+        color: #f6fa06;
+    }
+    
+    #bd a.tag {
+        background-color: #dcdcdc36 !important;
+        border: 1px solid #969696;
+        border-radius: 0;
+    }
+    
+    #bd .forum table th {
+        background: #1f0622 !important; /* цвет заголовка таблицы `Трекера` (заголовок, последнее сообщение) */
+        color: #ff7400;
+        border: 1px solid #6e0303; /* контур заголовка таблицы `Трекера` */
+    }
+    
+    #bd .forum table thead,
+    #bd .forum table tfoot {
+        color: #ededed;
+    }
+    
+    #bd .forum table tbody td
+    {
+      border: 0px solid #b1b1b1; /* контур таблицы `Трекера` */
+    }
+    
+    /* теги в `Трекере` */
+    .message-table .tag {
+        background: #6e0707f7;
+    }
+    
+    /* строки таблицы `Трекера` */
+    .message-table tr {
+        border: 0px solid;
+    }
+    
+    /* Выделенная указателем мыши строка в таблице `Трекера` */
+    .message-table tr:hover {
+        background: #fffdfd36 !important;
+    }
+    
+    /* ссылки на разделы `Форума` (%юзернейм% в %разделе `Форума`%) */
+    .message-table a.secondary {
+        color: #9b2801 !important;
+    }
+    
+    
+    /* Логотип `LINUX.ORG.RU` */
+    #sitetitle {
+        color: #e4780b !important;
+    }
+    
+    
+    /* Левая колонка таблицы в `Уведомлениях` */
+    #bd .icon-reply-color,
+    #bd .icon-tag-color {
+        color: #ebe2e2;
+    }
+    
+    #whois_userpic {
+        background: none repeat scroll 0% 0% #e0e0e0;
+    }
+    
+    #bd .btn-primary {
+        background-color: #1fafaf;
+        color: #610404;
+    }
+    
+    #bd .btn-danger {
+        background-color: #1fafaf;
+        color: #042d38;
+    }
+    
+    img {
+        filter: contrast(100%) brightness(90%);
+    }
+    
+    .stars {
+        color: #d8d809;
+    }
+    
+    .group-label {
+        background-color: #222222;
+    }
+    
+    .fav-buttons .selected [class^="icon-"] {
+        color: #1fafaf;
+    }
+    
+    
+    /* Комментарий к юзеру */
+    .user-remark {
+        color: #3a3a3a;
+    }
+    
+    span.group-label {
+        color: #b00a0a;
+    }
+}
